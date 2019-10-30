@@ -1,0 +1,279 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#navbar1{
+	background-color: white;
+	z-index: 3;
+}
+.navbar-brand{
+	margin-left: -17px;
+}
+#n1{
+	color: black; 
+	text-decoration: none;
+}
+#n2{
+	margin-left: 250px; 
+	margin-top:-25px;
+}
+#n3{
+	font-size: 14px; 
+	margin-left: 40px; 
+	color: black;
+}
+#n3 i{
+	margin-left: 5px;
+}
+#n4{
+	font-size: 25px; 
+	color: black;
+}
+.search1{
+	border-left: 1px solid grey;
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+	width: auto;
+}
+.search1 input{
+	margin-left: 10px;
+	width: 200px; 
+	outline: none; 
+	background-color: none; 
+	border: none;
+	font-size: 13px;
+	height: 43px;
+}
+.svg-inline--fa.fa-w-16{
+	margin-left: 5px;
+}
+#kategori2{
+	font-size: 13px;
+	border: none;
+	outline: none;
+	height: 35px;
+	width: auto;
+	border-left: 1px solid grey;
+	color: grey;
+}
+.btncari{
+	height: 45px;
+	width: 80px;
+	background-color: red;
+	border: none;
+	color: white;
+	font-weight: bold;
+	transition: .5s;
+}
+.btncari:hover{
+	height: 45px;
+	width: 80px;
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s;
+}
+#btnlogin{
+	width: 80px;
+	height: 25px;
+	background-color: red;
+	font-size: 14px;
+	text-align: center;
+	border: none;
+	color: white;
+	transition: .5s;
+}
+#btnlogin:hover{
+	width: 80px;
+	height: 25px;
+	background-color: white;
+	font-size: 14px;
+	border: 1px solid black;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+	transition: .5s;
+}
+#btndaftar{
+	width: 80px;
+	height: 25px;
+	background-color: white;
+	border: 1px solid black;
+	font-size: 13px;
+	color: black;
+	text-align: center;
+	transition: .5s;
+}
+#btndaftar:hover{
+	width: 80px;
+	height: 25px;
+	background-color: white;
+	border: 1px solid red;
+	font-size: 13px;
+	color: red;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+	transition: .5s;
+}
+
+#navbar2{
+	width: 100%;
+	background-color: white;
+	margin-top: 99px;
+	z-index: 2;
+	position: fixed;
+	transition: top 2s;
+}
+#na1 a{
+	color: black; 
+	font-size: 13px;
+}
+#banner1{
+	margin-top: 160px;
+	height: 400px;
+}
+#banner2{
+	margin-top: 160px;
+	margin-left: 25px;
+}
+#banner3{
+	margin-left: 25px;
+	margin-top: -50px;
+}
+#banner4{
+	float: left;
+	margin-left: 1025px;
+	margin-top: -200px;
+}
+#content{
+	background-color: none;
+	border: none;
+	margin-top: 30px;
+	clear: both;
+}
+#content1 {
+	border: 1px solid #E1E1E1;
+}
+#content1 a{
+	color: black;
+}
+#content1 ul{
+	border-bottom: 1px solid #E1E1E1; 
+	margin-top: -50px;
+}
+#content1 li{
+	margin-right: 5px;
+}
+.btn{
+	background-color: red; 
+	color: white; 
+	margin-top: 27px; 
+	margin-left: 40px;
+}
+#c1{
+	width: 200px;
+	margin-top: -50px;
+	float: left;
+}
+#tampilkan{
+	width: 100px;
+	float: left;
+	margin-top: -35px;
+	color: white;
+}
+#c3{
+	float: right;
+	margin-top: -40px;
+	text-decoration: none;
+	color: white;
+}
+
+#slider{
+	clear: both;
+}
+#slider .s{
+	background-color: white;
+	margin: 0 10px 0 10px;
+	border-radius: 3px;
+	height: 320px;
+}
+.s img{
+	background-position: center;
+}
+#slider a{
+	text-decoration: none;
+	outline: none;
+}
+.s p{
+	font-size: 14px;
+	color: black;
+	padding: 15px;
+}
+.s strike{
+	font-size: 15px;
+	color: grey;
+	padding: 0 15px 0 15px;
+}
+.s b{
+	color: red;
+	padding: 0 15px 0 15px;
+}
+#info img{
+	width: 80px;
+	height: 80px;
+}
+#info p{
+	font-size: 15px;
+	font-weight: 600;
+}
+#info span{
+	font-size: 13px;
+}
+
+
+
+#button {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-radius: 50% 50% 0 50%;
+    cursor: pointer;
+    font-size: 25px;
+}
+#button:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+#blink{
+	visibility: none;
+}
+
+
+
+/**{
+	border: 1px solid black;
+}
+*/
+@media screen and (max-width: 1300px) {
+	.all{
+		display: none;
+	}
+	#blink{
+		text-align:center;
+		background:red;
+		color:white;
+		margin: 0 auto;
+		padding:15px;
+	}
+}
